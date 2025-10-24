@@ -1,3 +1,4 @@
 ^paqueteInicialDePrueba\.Rproj$
 ^\.Rproj\.user$
 data_raw/
+^README\.Rmd$
