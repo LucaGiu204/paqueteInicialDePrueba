@@ -3,4 +3,4 @@
 # Generar datos sinteticos
 
 datos <-  sample(1000)
-usethis::use_data(datos, overwrite = TRUE)
+usethis::use_data(datos)
