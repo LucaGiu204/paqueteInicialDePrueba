@@ -39,18 +39,17 @@ library(paqueteInicialDePrueba)
 ## basic example code
 ```
 
-What is special about using `README.Rmd` instead of just `README.md`? You can include R chunks like so:
+First example of a package function:
 
 ```{r cars}
-summary(cars)
+suma(10, 20)
 ```
 
-You'll still need to render `README.Rmd` regularly, to keep `README.md` up-to-date. `devtools::build_readme()` is handy for this.
 
-You can also embed plots, for example:
+Another example of a package function:
 
 ```{r pressure, echo = FALSE}
-plot(pressure)
+centimetros_a_pulgadas(50)
 ```
 
-In that case, don't forget to commit and push the resulting figure files, so they display on GitHub and CRAN.
+

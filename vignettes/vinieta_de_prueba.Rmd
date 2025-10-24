@@ -21,7 +21,17 @@ library(paqueteInicialDePrueba)
 ## Introducción
 Esta es una viñeta de prueba para el paquete `paqueteInicialDePrueba`.
 
+
+Esta viñeta demuestra cómo utilizar la función `suma` del paquete:
+
 ```{r}
 suma(5, 15)
+```
+
+
+esta es una viñeta para demostrar el uso de la funcion centimetros_a_pulgadas del paquete:
+
+```{r}
+centimetros_a_pulgadas(30)
 ```
 
