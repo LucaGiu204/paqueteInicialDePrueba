@@ -1,0 +1,27 @@
+---
+title: "viñeta de prueba"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vinieta_de_prueba}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paqueteInicialDePrueba)
+```
+
+## Introducción
+Esta es una viñeta de prueba para el paquete `paqueteInicialDePrueba`.
+
+```{r}
+suma(5, 15)
+```
+
