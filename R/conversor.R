@@ -12,7 +12,7 @@
 #'
 centimetros_a_pulgadas <- function(centimetros) {
   if (!is.numeric(centimetros)) {
-    stop("Error: el valor de 'centimetros' debe ser numérico.")
+    cli::cli_abort("Error: el valor de 'centimetros' debe ser numerico.")
   }
   pulgadas <- centimetros / 2.54
   return(pulgadas)

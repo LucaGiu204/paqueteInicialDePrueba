@@ -15,10 +15,10 @@
 #' @export
 suma <- function(x=10, y=20) {
   if (!is.numeric(x) || !is.numeric(y)) {
-    stop("ambos argumentos deben ser numéricos")
+    cli::cli_abort("ambos argumentos deben ser numericos")
     }
   else if (x < 0 || y < 0) {
-    stop("ambos argumentos deben ser no negativos")
+    cli::cli_abort("ambos argumentos deben ser no negativos")
     }
   else return(x + y)
 }

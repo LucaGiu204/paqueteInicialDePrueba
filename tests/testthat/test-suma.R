@@ -4,9 +4,9 @@ test_that("la suma funciona", {
 
   })
 
-test_that("la suma lanza error con argumentos no numéricos", {
+test_that("la suma lanza error con argumentos no numericos", {
 
-  expect_error(suma("a", 3), "ambos argumentos deben ser numéricos")
+  expect_error(suma("a", 3), "ambos argumentos deben ser numericos")
 
   })
 
